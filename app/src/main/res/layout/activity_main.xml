@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#D35454"
+        android:padding="2dp"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true">
+
+        <TableRow android:background="#D35454">
+            <Button
+                android:id="@+id/button_1"
+                android:text="1"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_margin="1dp"/>
+            <Button
+                android:id="@+id/button_2"
+                android:text="2"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_margin="1dp"/>
+            <Button
+                android:id="@+id/button_3"
+                android:text="3"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_margin="1dp"/>
+            <Button
+                android:id="@+id/button_4"
+                android:text="4"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_margin="1dp"/>
+            <Button
+                android:id="@+id/button_5"
+                android:text="5"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_margin="1dp"/>
+            <Button
+                android:id="@+id/button_6"
+                android:text="6"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_margin="1dp"/>
+            <Button
+                android:id="@+id/button_7"
+                android:text="7"
+                android:textColor="@drawable/selector_button_text"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_button_pressed"
+                android:layout_marginVertical="1dp"
+                android:layout_marginLeft="1dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_double_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="double click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tablelayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
