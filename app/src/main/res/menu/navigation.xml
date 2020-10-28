@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_white"
+        android:title="Home" />
+    <item android:id="@+id/menu_add"
+        android:icon="@drawable/ic_add_white"
+        android:title="Add"/>
+    <item android:id="@+id/menu_time"
+        android:icon="@drawable/ic_time_white"
+        android:title="Time"/>
+</menu>
